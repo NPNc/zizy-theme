@@ -1,0 +1,15 @@
+.sidebar li {
+  list-style-type: none;
+}
+
+.sidebar .widget {
+  padding-bottom: 10px;
+}
+
+.sidebar .widget_search input {
+  border: 2px solid deeppink;
+}
+
+.primary-menu {
+  background-color: var(--pink-primary);
+}
