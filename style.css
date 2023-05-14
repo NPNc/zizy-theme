@@ -67,12 +67,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-:root {
-  --pink: rgba(255, 183, 221, 1);
-  --pink-primary: rgba(255, 183, 221, 0.5);
-  --pink-secord: rgba(251, 84, 172, 1);
-  --gray: rgba(98, 97, 97, 1);
-}
 
 html {
   line-height: 1.15;
@@ -658,7 +652,7 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
   display: block;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .main-navigation ul {

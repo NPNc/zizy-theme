@@ -1,0 +1,16 @@
+.tag-image {
+    display: inline-flex;
+  }
+  .tag-image #upload-button {
+    height: 40px;
+    margin: auto 50px auto 0;
+  }
+  #tag-image-preview {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

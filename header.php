@@ -29,7 +29,7 @@
 
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
-				<div class="logo-container">
+				<div class="logo-container mb-4">
 					<?php
 					if (has_custom_logo()) :
 						the_custom_logo();
@@ -44,15 +44,14 @@
 				</div>
 			</div><!-- .site-branding -->
 
-			<div class="container-fluid d-flex align-items-center justify-content-center primary-menu">
-				<nav id="site-navigation" class="main-navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e('Primary Menu', 'zizy-theme'); ?></button>
+			<div class="p-0 primary-menu">
+				<nav id="site-navigation" class="d-flex justify-content-center w-100 main-navigation">
 					<?php
-					if (has_nav_menu('primary')) :
+					if (has_nav_menu('menu-1')) :
 						wp_nav_menu([
 							'theme_location' => 'primary',
 							'container'      => false,
-							'menu_class'     => 'text-jura',
+							// 'menu_class'     => 'text-jura',
 							'menu_id'        => '',
 							'depth'          => 3
 						]);

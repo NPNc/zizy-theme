@@ -1,15 +1,24 @@
-.sidebar li {
+nav {
+  overflow: hidden;
+}
+
+nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.sidebar .widget {
-  padding-bottom: 10px;
+nav li {
+  display: flex;
 }
 
-.sidebar .widget_search input {
-  border: 2px solid deeppink;
+nav li a {
+  color: #033028;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.primary-menu {
-  background-color: var(--pink-primary);
+nav li a:hover {
+  background-color: #111;
 }

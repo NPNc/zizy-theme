@@ -1,0 +1,107 @@
+#main{
+  padding:  0 2em 0 2em;
+}
+
+.places-label h3 {
+  margin: 0.5em;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 45px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: 0.3px;
+
+  color: #fb54ac;
+}
+
+.place-container label::first-letter {
+  color: palevioletred;
+}
+
+.place-container label {
+  color: black;
+  position: relative;
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  top: -1em;
+  left: 0.2em;
+}
+
+.place-item {
+  opacity: 0.7;
+  font-size: 45px;
+  height: 250px;
+  width: 400px;
+  background-size: cover;
+}
+
+#bg-place:hover ~ #label-place {
+  color: pink;
+  cursor: pointer;
+}
+
+
+
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+.portfolio-info {
+  margin-left: 1em;
+}
+.portfolio-info .logo-2 {
+  height: 20em;
+}
+
+.portfolio-info .info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.portfolio-info .portfolio-img {
+  margin: 2em 0 0 7em;
+}
+
+/*--------------------------------------------------------------
+# Top Posts Section
+--------------------------------------------------------------*/
+
+.popular-posts {
+  height: 60em;
+}
+
+.popular-posts label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 110px;
+  line-height: 120px;
+  /* or 109% */
+
+  letter-spacing: -2px;
+
+  color: #464444;
+}
+.top1-post {
+  top: 8em;
+  left: 40em;
+  background-color: #fb54ad7e;
+  align-items: self-end;
+  display: grid;
+}
+
+.top2-post {
+  top: 40em;
+  left: -2em;
+}
+
+.top2-post div {
+  height: 20em;
+}

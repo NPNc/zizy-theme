@@ -59,3 +59,5 @@ function zizy_theme_customize_preview_js() {
 	wp_enqueue_script( 'zizy-theme-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
 }
 add_action( 'customize_preview_init', 'zizy_theme_customize_preview_js' );
+
+
